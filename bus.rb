@@ -10,4 +10,7 @@ end
 def bus_noise(noise)
   return @bus.noise
 end
+def passengers_count()
+  return passengers.count
+end
 end
