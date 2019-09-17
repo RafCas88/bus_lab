@@ -4,7 +4,7 @@ require_relative("../person")
 
 class TestPerson < MiniTest::Test
   def setup
-    @person = Person.new(:name, :age)
+    @person = Person.new("Harry Potter", :age)
   end
 
 def test_person_name()
